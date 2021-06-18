@@ -3,7 +3,12 @@ Estilos da página index.html
 */
 
 body {
-    background-color: coral;
+    background-image: url(../img/bg_img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top; 
+    background-size: cover;
+    background-color:rgb(67, 185, 146);
     
 }
 .center {
