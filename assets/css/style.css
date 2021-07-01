@@ -1,0 +1,70 @@
+/*
+Estilos da página index.html
+*/
+
+body {
+    background-image: url(../img/bg_img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top; 
+    background-size: cover;
+    background-color:rgb(67, 185, 146);
+    
+}
+.center {
+    text-align: center;
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color:rgb(230, 15, 15);
+}
+.justify{
+    text-align: justify;
+    font-family: Arial, "Helvetica", sans-serif;
+}
+.container {
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+#menu li {
+    display: inline;
+    padding: 20px;
+}
+#menu li a {
+    text-decoration: none;
+    font-family: "Cambria", Cochin, Georgia, Times, Times New Roman, serif;
+    color:rgb(124, 8, 8);
+    font-size: 20px;
+
+}
+#menu li a:hover {
+    color:red;
+}
+.p-30 {
+    padding: 30px;
+}
+.br-50 {
+    border-radius: 50%;
+}
+.wh {
+    width: 500px;
+    height: 500px;
+}
+.tm-social {
+    width: 20px;
+    height: 20px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+
+
+/*
+Estilos da página contato.html
+*/
+
+.ml-50 {
+    margin-left: 50px;
+}

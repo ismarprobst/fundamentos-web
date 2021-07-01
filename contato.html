@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="contato">
+    <div id="menu">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <!-- para abrir em outra aba colocamos target="_blank"-->
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="contato.html"> Contato </a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <h1 class="center">ENTRE EM CONTATO COMIGO</h1>
+
+    <div class="container mb-50">
+
+        <div>
+            <h2>Mande uma mensagem:</h2>
+            <form>
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome"> </div>
+                <br>
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail"> </div>
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                <div id="txtAssunto"> </div>
+                <br>
+                <br>
+                <button onclick="enviar()">Enviar</button>
+            </form>
+        </div>
+
+        <div class="ml-50">
+            <h2>Endereço:</h2>
+
+            <p>Av. Brg. Faria Lima, 3477 - Itaim Bibi</p>
+            <p>São Paulo - SP</p>
+            <p>04538-133</p>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4869182789294!2d-46.68430294985343!3d-23.586864142884842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5744e0ebff5b%3A0x769bf4a32f914782!2sGoogle%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1623855157423!5m2!1spt-BR!2sbr"
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id='mapa'></iframe>
+        </div>
+    </div>
+    <hr>
+    <footer></footer>
+    <div class="container">
+        <a href="https://www.github.com/ismarps/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/github.png" alt="Logo do Github">
+        </a>
+        <a href="https://www.linkedin.com/in/ismarpls/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do LinkedIn">
+        </a>
+        <a href="https://www.instagram.com/ismarps/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram">
+        </a>
+
+    </div>
+    <p class="center">
+        Todos os direitos reservados: Ismar P L Santos &copy
+    </p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
